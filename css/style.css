@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Lato-Regular.woff2") format("woff2"), url("/fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 2%;
+  font-size: 16px;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+h1 {
+  margin: 2% 1%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts__content {
+  width: 100%;
+  text-align: center;
+}
+
+.contacts__content h2 {
+  margin: 0 1% 2%;
+  text-align: center;
+}
+
+.contacts__list {
+  display: inline-block;
+  margin: 0;
+  text-align: left;
+}
+
+.contacts__list a {
+  color: #888888;
+}
+
+.contacts__foto img {
+  border: 1px solid #888888;
+}
+
+.contacts__list li {
+  white-space: nowrap;
+}
+
+.slills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

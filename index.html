@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Резюме - Кульчицкий Сергей Анатольевич</title>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Кульчицкий Сергей Анатольевич</h1>
+    </header>
+    <main>
+      <section class="contacts">
+        <picture class="contacts__foto">
+          <source srcset="img/foto.webp">
+          <img src="img/foto.jpg" alt="Кульчицкий Сергей" title="Кульчицкий Сергей" width="300" height="370">
+        </picture>
+        <div class="contacts__content">
+          <h2>Контакты</h2>
+          <ul class="contacts__list">
+            <li>Phone: <a href="tel:+375291797826">+375 29 179-78-26</a></li>
+            <li>Telegram: <a title="Telegram" href="tg://resolve?domain=serg_8888">@serg_8888</a></li>
+            <li>Skype: <a href="skype:serega88serg?call">serega88serg</a></li>
+            <li>E-mail: <a href="mailto:workintellect@gmail.com">workintellect@gmail.com</a></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>Краткая информация</h2>
+        <p>Всем привет. Меня зовут Сергей и мне 31 год. Я ищу работу на вакансию <strong>junior frontend developer</strong>. 
+          У меня есть опыт разработки сайтов, но нет опыта работы во фронтэнде. Я хочу попробовать это направление и поэтому
+          осенью 2018 года я учился на курсах по js в Rolling Scopes и прошел два этапа. Сейчас читаю книгу http://learn.javascript.ru/ и решаю 
+        задачи в этой книге.</p>
+      </section>
+      <section>
+      <h2>Опыт</h2>
+        <p>Я работаю в небольшой вебстудии ООО "Восточные технологии" с 1 июля 2015 года. 
+          Мы, в основном, разрабатываем корпоративные сайты и сайты-каталоги. Многие проекты мы раньше делали на "шаблонах" на основе CMS Drupal 7. 
+          В 2018 году были проекты на Drupal 8. Сейчас работаем с October CMS. Есть проeкты, которые я сделал полностью сам (кроме дизайна).
+          Вот некоторые из них:</p>
+        <ul>
+          <li><a href="http://mi-vmeste.com/" target="_blank" rel="nofollow noopener">mi-vmeste.com</a> (CMS Drupal 7)</li>
+          <li><a href="https://redstone.by" target="_blank" rel="nofollow noopener">redstone.by</a> (CMS Drupal 7)</li>
+          <li><a href="http://logos-sim.com/" target="_blank" rel="nofollow noopener">Logos</a> (CMS Drupal 8)</li>
+          <li><a href="http://hotelpolonez.by" target="_blank" rel="nofollow noopener">Polonez</a> (CMS Drupal 8)</li>
+        </ul>
+        <p>Я работаю на linux ubuntu. Cайты разрабатываю, в основном, на локальном сервере (lamp). Необходимый функционал для разрабатываемого сайта я решаю, 
+          как правило, путем установки необходимых модулей для Drupal или созданием своих модулей с помощью builder для October CMS. 
+          На пхп пишу очень немного. Далее сайт верстаю и стилизую. По готовности заливаю его на продакшн.
+        </p>
+      </section>
+      <section>
+        <h2>Курсы Rolling Scopes</h2>
+        <p>Курсы очень интенсивные и очень классные. Мысль о том, чтобы сойти с дистанции посещала не раз. 
+          Первый этап представляет собой решение различных задач. Например, написать конвертер из цельсия в форенгейт, 
+          написать какую-нибудь сортировку, была задача про обмен валют и т.д.  На втором этапе мы познакомились с
+          методами массива, структурами данных, замыканием, контекстом вызова, websocket, webpack и т.д. Решали различные
+          задания, например, верстали страницу - https://serg8.github.io/ 
+        </p>
+      </section>
+      <section>
+        <h2>Образование</h2>
+        <p>БГУИР, факультет радиотехники и электроники (2011).</p>
+      </section>
+      <section>
+        <h2>English</h2>
+        <p>My level of English is approximately A2. I can speak simple sentences. I study English almost every day.</p>
+      </section>
+      <section>
+        <h2>Навыки</h2>
+        <ul class="slills">
+          <li>html5</li>
+          <li>css3</li>
+          <li>bootstrap</li>
+          <li>git</li>
+          <li>javascript</li>
+          <li>jquery</li>
+          <li>php</li>
+          <li>mysql</li>
+          <li>phpmyadmin</li>
+          <li>linux</li>
+          <li>CMS Drupal 7 and 8</li>
+          <li>CMS Wordpress</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Примеры кода js</h2>
+        <article>
+          <h3>Пример 1</h3>
+          <pre>
+            <code>
+                function addClass(obj, cls) {
+                  let flag = false;
+                  let arr = obj.className.split(' ');
+                  for(let i = 0; i &lt; arr.length; i++) {
+                    if(arr[i] == cls){
+                        flag = true;
+                        break;
+                      }
+                  }
+                  if(!flag) {
+                    arr.push(cls);
+                    obj.className = arr.join(" ").trim();
+                  }
+                  return obj;
+                }
+            </code>
+          </pre>
+        </article>
+        <article>
+          <h3>Пример 2</h3>
+          <pre>
+            <code>
+                let vasya = { name: "Вася", age: 23 };
+                let masha = { name: "Маша", age: 18 };
+                let vovochka = { name: "Вовочка", age: 6 };
+                let people = [ vasya , masha , vovochka ];
+
+                people.sort(sortByAge);
+
+                function sortByAge(a, b){
+                  return a.age - b.age;
+                }
+
+                for(let i=0; i &lt; people.length; i++) {
+                people[i] = people[i].name;
+                }
+
+                console.log(people);
+            </code>
+          </pre>
+        </article>
+        <article>
+          <h3>Пример 3</h3>
+          <pre>
+            <code>
+              function unique(arr) {
+
+                const unArr = [], reArr = [];
+
+                for(let i=0; i &lt; arr.length; i++) {
+                  unArr[arr[i]] = arr[i];
+                }
+                
+                for(let value in unArr) {
+                  reArr.push(value);
+                }
+                
+                return reArr;
+              
+              }
+            </code>
+          </pre>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
