@@ -88,76 +88,7 @@
           <li>CMS Wordpress</li>
         </ul>
       </section>
-      <section>
-        <h2>Примеры кода js</h2>
-        <article>
-          <h3>Пример 1</h3>
-          <pre>
-            <code>
-                function addClass(obj, cls) {
-                  let flag = false;
-                  let arr = obj.className.split(' ');
-                  for(let i = 0; i &lt; arr.length; i++) {
-                    if(arr[i] == cls){
-                        flag = true;
-                        break;
-                      }
-                  }
-                  if(!flag) {
-                    arr.push(cls);
-                    obj.className = arr.join(" ").trim();
-                  }
-                  return obj;
-                }
-            </code>
-          </pre>
-        </article>
-        <article>
-          <h3>Пример 2</h3>
-          <pre>
-            <code>
-                let vasya = { name: "Вася", age: 23 };
-                let masha = { name: "Маша", age: 18 };
-                let vovochka = { name: "Вовочка", age: 6 };
-                let people = [ vasya , masha , vovochka ];
-
-                people.sort(sortByAge);
-
-                function sortByAge(a, b){
-                  return a.age - b.age;
-                }
-
-                for(let i=0; i &lt; people.length; i++) {
-                people[i] = people[i].name;
-                }
-
-                console.log(people);
-            </code>
-          </pre>
-        </article>
-        <article>
-          <h3>Пример 3</h3>
-          <pre>
-            <code>
-              function unique(arr) {
-
-                const unArr = [], reArr = [];
-
-                for(let i=0; i &lt; arr.length; i++) {
-                  unArr[arr[i]] = arr[i];
-                }
-                
-                for(let value in unArr) {
-                  reArr.push(value);
-                }
-                
-                return reArr;
-              
-              }
-            </code>
-          </pre>
-        </article>
-      </section>
+     
     </main>
   </body>
 </html>
