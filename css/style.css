@@ -45,6 +45,9 @@ h1 {
 .contacts__list a {
   color: #888888;
 }
+.contacts__foto {
+  width: 50%;
+}
 
 .contacts__foto img {
   max-width: 300px;
